@@ -22,4 +22,8 @@ func main() {
 	// Operators combine multiple expressions together
 	// as if there's a single expression.
 	fmt.Println("Hello!" + "!" + "!" + "?")
+
+	//print variable and type
+	fmt.Printf("Type of %d is %[1]T\n", 3)
+
 }
